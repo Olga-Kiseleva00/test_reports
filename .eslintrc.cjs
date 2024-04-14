@@ -1,0 +1,35 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:react-hooks/recommended',
+    'prettier',
+    'airbnb',
+  ],
+  overrides: [],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  plugins: ['react'],
+  rules: {
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-no-target-blank': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'import/no-unresolved': 'off',
+    'import/no-absolute-path': 'off',
+    'no-shadow': 'off',
+    'import/extensions': 'off',
+    'react/prop-types': 'off',
+    'no-lonely-if': 'off',
+    'jsx-a11y/control-has-associated-label': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
+  },
+};

@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 23px;
+    margin-top: calc(106px - var(--header-height)); 
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.73px;
+}
+
+.container {
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.card {
+    text-decoration: none; 
+    color: inherit;
+}
+
